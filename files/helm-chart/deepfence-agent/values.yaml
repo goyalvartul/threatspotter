@@ -1,0 +1,70 @@
+# Default values for deepfence.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+createDeepfenceNamespace: "true"
+
+image:
+  # deepfence agent runs as a daemonset in all nodes in the cluster
+  name: deepfenceio/deepfence_agent_ce
+  tag: latest
+  # cluster agent runs as a single pod
+  clusterAgentImageName: deepfenceio/deepfence_discovery_ce
+  clusterAgentImageTag: latest
+  pullPolicy: Always
+
+managementConsoleIp: ""
+
+# Auth: Get deepfence api key from UI -> Settings -> User Management
+deepfenceKey: ""
+# If kubernetes secret is already defined externally, change following value to false
+createDeepfenceKeySecret: "true"
+
+namespace: deepfence
+
+# Suffix cloud instance id to hostnames
+instanceIdSuffix: "N"
+
+# comma separated list of tags (labels) to set for all agents
+userDefinedTags: ""
+
+# (Optional) Set custom name for the cluster and hostname prefix for agent vm's to easily identify in Deepfence UI.
+# Example: prod-cluster or dev1-cluster
+# It will be suffixed with hostname - prod-cluster-aks-agentpool-123456-vmss000001
+clusterName: ""
+
+enableGraphReport: "true"
+
+resources:
+  requests:
+    cpu: 150m
+    memory: 512Mi
+  limits:
+    cpu: 1500m
+    memory: 1024Mi
+
+clusterAgentResources:
+  requests:
+    cpu: 25m
+    memory: 80Mi
+  limits:
+    cpu: 1500m
+    memory: 1024Mi
+
+nodeSelector: {}
+
+tolerations:
+  - operator: "Exists"
+    effect: "NoSchedule"
+  - operator: "Exists"
+    effect: "NoExecute"
+
+affinity: {}
+
+serviceAccount:
+  # Annotations to add to the service account
+  annotations: {}
+  name: "deepfence-agent"
+
+nameOverride: ""
+fullnameOverride: ""
