@@ -1,5 +1,5 @@
 
-![ThreatSpotter Logo](images/threatspotter_logo.png)
+![ThreatSpotter Logo](images/threatspotter_new_logo.png)
 
 
 # ThreatSpotter AISecureMe
