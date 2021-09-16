@@ -61,13 +61,13 @@ A pictorial depiction of the ThreatSpotter AiSecureMe Architecture is below
 
 # Feature Availability
 
-Features      | AiSecureMe | Deepfence Runtime Threat mapper
-------------- | ----------------- | -----------------
-(Feature #1) Discover & Visualize Running Pods, Containers and Hosts   | :heavy_check_mark: (unlimited) | :heavy_check_mark: (unlimited)
-(Feature #2) Runtime Vulnerability Management for hosts/VMs | :heavy_check_mark: (unlimited) | :heavy_check_mark: (unlimited)
-(Feature #3) Runtime Vulnerability Management for containers | :heavy_check_mark: (unlimited) | :heavy_check_mark: (unlimited)
-(Feature #4) Container Registry Scanning (AWS ECR) | :heavy_check_mark: | :heavy_check_mark:
-(Feature #5) CI/CD Integration  | :heavy_check_mark: | :heavy_check_mark:
+Features      | AiSecureMe | 
+------------- | ----------------- 
+(Feature #1) Discover & Visualize Running Pods, Containers and Hosts   | :heavy_check_mark: (unlimited) 
+(Feature #2) Runtime Vulnerability Management for hosts/VMs | :heavy_check_mark: (unlimited) 
+(Feature #3) Runtime Vulnerability Management for containers | :heavy_check_mark: (unlimited) 
+(Feature #4) Container Registry Scanning (AWS ECR) | :heavy_check_mark: 
+(Feature #5) CI/CD Integration  | :heavy_check_mark: 
 
 ## Feature 1
 Discover & Visualize Running Pods, Containers and Hosts. [issue #1](https://github.com/blockboard/ThreatMapper-aisecureme/issues/1)
