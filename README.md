@@ -81,19 +81,19 @@ intuitively understand, monitor, and control your containerized, microservices-b
 
 #### Understand your Docker containers in real time
 
-<img src="imgs/topology.png" width="200" alt="Map you architecture" align="right">
+<img src="images/topology.png" width="200" alt="Map you architecture" align="right">
 
 Choose an overview of your container infrastructure, or focus on a specific microservice. Easily identify and correct issues to ensure the stability and performance of your containerized applications.
 
 #### Contextual details and deep linking
 
-<img src="imgs/selected.png" width="200" alt="Focus on a single container" align="right">
+<img src="images/selected.png" width="200" alt="Focus on a single container" align="right">
 
 View contextual metrics, tags, and metadata for your containers.  Effortlessly navigate between processes inside your container to hosts your containers run on, arranged in expandable, sortable tables.  Easily find the container using the most CPU or memory for a given host or service.
 
 #### Interact with and manage containers
 
-<img src="imgs/terminals.png" width="200" alt="Launch a command line." align="right">
+<img src="images/terminals.png" width="200" alt="Launch a command line." align="right">
 
 Interact with your containers directly: pause, restart, and stop containers. Launch a command line. All without leaving the scope browser window.
 
@@ -126,7 +126,7 @@ A Simple and Comprehensive Vulnerability Scanner for Containers and other Artifa
 ### Expected results
 
 - A generated report with the scanning results for the container from Trivy, with a Pie chart comparing High, Medium, and Low vulnerabilities.
-<img src="assets/images/feature2.png" width="600" height="300" alt="Container scanning results">
+<img src="images/feature2.png" width="600" height="300" alt="Container scanning results">
 
 
 ## Feature 4
@@ -173,7 +173,7 @@ With Prowler you can:
 ### Expected results
 
 - A generated report with the scanning results for the AWS containers from Prowler. 
-<img src="assets/images/feature4.png" width="600" height="300" alt="Focus on a single container">
+<img src="images/feature4.png" width="600" height="300" alt="Focus on a single container">
 
 
 ## Feature 5
@@ -207,38 +207,38 @@ sudo ./scope stop
 ```
 # How to use
 - Visualize Running Pods, Containers and Hosts.
-<img src="imgs/ReadMe/Processes.png" width="600" height="300" alt="Focus on a single container">
+<img src="imges/Processes.png" width="600" height="300" alt="Focus on a single container">
 
 - Visualize by Table view.
-<img src="imgs/ReadMe/ProcessesTable.png" width="600" height="300" alt="Focus on a single container">
+<img src="imges/ProcessesTable.png" width="600" height="300" alt="Focus on a single container">
 
 - Visualize by Resources.
-<img src="imgs/ReadMe/Processes Resources.png" width="600" height="300" alt="Focus on a single container">
+<img src="imges/Processes Resources.png" width="600" height="300" alt="Focus on a single container">
 
 - The container menu at the top lists all the avaiable running containers for the user as a graph
-<img src="imgs/ReadMe/Containers.png" width="600" height="300" alt="Focus on a single container">
+<img src="imges/Containers.png" width="600" height="300" alt="Focus on a single container">
 
 - For showing the running container node detailes.
-<img src="imgs/ReadMe/ContainerDetail.png" width="600" height="300" alt="Focus on a single container">
+<img src="imges/ContainerDetail.png" width="600" height="300" alt="Focus on a single container">
 
 - Pressing an container opens a containers details menu which lists the details of a container and a list of buttons to control container operations like starting and stoping the container , pausing the container and scanning the container 
-<img src="imgs/ReadMe/Container_details_1.png" width="300" height="200" alt="Focus on a single container">
-<img src="imgs/ReadMe/Container_details_2.png" width="300" height="200" alt="Focus on a single container">
+<img src="imges/Container_details_1.png" width="300" height="200" alt="Focus on a single container">
+<img src="imges/Container_details_2.png" width="300" height="200" alt="Focus on a single container">
 
 - For scanning running containers, and show vulnerabilities.
-<img src="imgs/ReadMe/ContainerScan.png" width="600" height="300" alt="Focus on a single container">
+<img src="imges/ContainerScan.png" width="600" height="300" alt="Focus on a single container">
 
 - For running container vulnerabilities report after scanning.
-<img src="imgs/ReadMe/Container Vulnerability.png" width="500" height="500" alt="Focus on a single container">
+<img src="imges/Container Vulnerability.png" width="500" height="500" alt="Focus on a single container">
 
 - The hosts menu at the top lists all the avaiable running Hosts from the network for the user as a graph
-<img src="imgs/ReadMe/Hosts.png" width="600" height="300" alt="Focus on a single container">
+<img src="imges/Hosts.png" width="600" height="300" alt="Focus on a single container">
 
 - Showing scanning local host. 
-<img src="imgs/ReadMe/HostScanning.png" width="600" height="300" alt="Focus on a single container">
+<img src="imges/HostScanning.png" width="600" height="300" alt="Focus on a single container">
 
 - Showing Terminal inside the running local host. 
-<img src="imgs/ReadMe/HostTerminal.png" width="600" height="300" alt="Focus on a single container">
+<img src="imges/HostTerminal.png" width="600" height="300" alt="Focus on a single container">
 
 - The Registers cloud vulnerabilities table page after registering and configuring AWS.
-<img src="imgs/ReadMe/RegisterAWS.png" width="600" height="500" alt="Focus on a single container">
+<img src="imges/RegisterAWS.png" width="600" height="500" alt="Focus on a single container">
