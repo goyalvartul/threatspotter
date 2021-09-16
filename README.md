@@ -46,7 +46,7 @@ The main community features that AISecureMe ThreatSpotter is supporting:
 
 # Architecture
 
-A pictorial depiction of the ThreatMapper AiSecureMe Architecture is below
+A pictorial depiction of the ThreatSpotter AiSecureMe Architecture is below
 
 
 ![Deepfence Architecture](assets/images/architecture.png)
@@ -183,7 +183,7 @@ CI/CD pipeline: CI/CD Pipelines like CircleCI. [issue #5](https://github.com/blo
 - For a detailed installation guide for the prerequisites check out this [Detailed Prerequisites installation document](https://github.com/blockboard/ThreatMapper-aisecureme/blob/master/Pre-Requisites.md)
 
 ## Debian-based Linux Distros
-:warning: **Make sure you are inside the ThreatMapper-AiSecureMe project location from your terminal.**
+:warning: **Make sure you are inside the ThreatSpotter-AiSecureMe project location from your terminal.**
 
 ### Pre-requirstes installations
 - This shell script works for any Debian-based Linux Distro like **Ubuntu**, **MX Linux**, **Linux Mint**, **Deepin**, **Kali Linux**, and **Parrot OS**. 
@@ -194,14 +194,14 @@ sudo chmod a+x scripts/installations_debian.sh
 ./scripts/installations_debian.sh
 ```
 
-### ThreatMapper-AiSecureMe running
+### ThreatSpotter-AiSecureMe running
 
-- The following command is used for running ThreatMapper-AiSecureMe.
+- The following command is used for running ThreatSpotter-AiSecureMe.
 ```console
 sudo ./scope launch
 ```
 
-- The following command is used for stopping and closing ThreatMapper-AiSecureMe. 
+- The following command is used for stopping and closing ThreatSpotter-AiSecureMe. 
 ```console
 sudo ./scope stop
 ```
