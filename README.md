@@ -207,38 +207,38 @@ sudo ./scope stop
 ```
 # How to use
 - Visualize Running Pods, Containers and Hosts.
-<img src="imges/Processes.png" width="600" height="300" alt="Focus on a single container">
+<img src="images/Processes.png" width="600" height="300" alt="Focus on a single container">
 
 - Visualize by Table view.
-<img src="imges/ProcessesTable.png" width="600" height="300" alt="Focus on a single container">
+<img src="images/ProcessesTable.png" width="600" height="300" alt="Focus on a single container">
 
 - Visualize by Resources.
-<img src="imges/Processes Resources.png" width="600" height="300" alt="Focus on a single container">
+<img src="images/Processes Resources.png" width="600" height="300" alt="Focus on a single container">
 
 - The container menu at the top lists all the avaiable running containers for the user as a graph
-<img src="imges/Containers.png" width="600" height="300" alt="Focus on a single container">
+<img src="images/Containers.png" width="600" height="300" alt="Focus on a single container">
 
 - For showing the running container node detailes.
-<img src="imges/ContainerDetail.png" width="600" height="300" alt="Focus on a single container">
+<img src="images/ContainerDetail.png" width="600" height="300" alt="Focus on a single container">
 
 - Pressing an container opens a containers details menu which lists the details of a container and a list of buttons to control container operations like starting and stoping the container , pausing the container and scanning the container 
-<img src="imges/Container_details_1.png" width="300" height="200" alt="Focus on a single container">
-<img src="imges/Container_details_2.png" width="300" height="200" alt="Focus on a single container">
+<img src="images/Container_details_1.png" width="300" height="200" alt="Focus on a single container">
+<img src="images/Container_details_2.png" width="300" height="200" alt="Focus on a single container">
 
 - For scanning running containers, and show vulnerabilities.
-<img src="imges/ContainerScan.png" width="600" height="300" alt="Focus on a single container">
+<img src="images/ContainerScan.png" width="600" height="300" alt="Focus on a single container">
 
 - For running container vulnerabilities report after scanning.
-<img src="imges/Container Vulnerability.png" width="500" height="500" alt="Focus on a single container">
+<img src="images/Container Vulnerability.png" width="500" height="500" alt="Focus on a single container">
 
 - The hosts menu at the top lists all the avaiable running Hosts from the network for the user as a graph
-<img src="imges/Hosts.png" width="600" height="300" alt="Focus on a single container">
+<img src="images/Hosts.png" width="600" height="300" alt="Focus on a single container">
 
 - Showing scanning local host. 
-<img src="imges/HostScanning.png" width="600" height="300" alt="Focus on a single container">
+<img src="images/HostScanning.png" width="600" height="300" alt="Focus on a single container">
 
 - Showing Terminal inside the running local host. 
-<img src="imges/HostTerminal.png" width="600" height="300" alt="Focus on a single container">
+<img src="images/HostTerminal.png" width="600" height="300" alt="Focus on a single container">
 
 - The Registers cloud vulnerabilities table page after registering and configuring AWS.
-<img src="imges/RegisterAWS.png" width="600" height="500" alt="Focus on a single container">
+<img src="images/RegisterAWS.png" width="600" height="500" alt="Focus on a single container">
