@@ -49,7 +49,7 @@ The main community features that AISecureMe ThreatSpotter is supporting:
 A pictorial depiction of the ThreatSpotter AiSecureMe Architecture is below
 
 
-![Deepfence Architecture](assets/images/architecture.png)
+![Deepfence Architecture](images/architecture.png)
 
 - Server (Golang): Weaveworks/scope solid backend Go server for monitoring, visualisation & management for Docker & Kubernetes.
 
