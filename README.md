@@ -70,7 +70,7 @@ Features      | AiSecureMe |
 (Feature #5) CI/CD Integration  | :heavy_check_mark: 
 
 ## Feature 1
-Discover & Visualize Running Pods, Containers and Hosts. [issue #1](https://github.com/blockboard/ThreatMapper-aisecureme/issues/1)
+Discover & Visualize Running Pods, Containers and Hosts. 
 
 - [Weaveworks/scope](https://github.com/weaveworks/scope) has been selected and forked to implement the vistualization feature, and below is the description from Weaveworks/scope READMEmd
 
@@ -102,9 +102,9 @@ Interact with your containers directly: pause, restart, and stop containers. Lau
 Add custom details or interactions for your hosts, containers, and/or processes by creating Scope plugins. Or, just choose from some that others have already written at the GitHub [Weaveworks Scope Plugins](https://github.com/weaveworks-plugins/) organization.
 
 ## Feature 2
-Runtime Vulnerability Management for LocalHost. [issue #2](https://github.com/blockboard/ThreatMapper-aisecureme/issues/2)
+Runtime Vulnerability Management for LocalHost. 
 ## Feature 3
-Runtime Vulnerability Management for containers. [issue #3](https://github.com/blockboard/ThreatMapper-aisecureme/issues/3)
+Runtime Vulnerability Management for containers. 
 
 - [Trivy](https://github.com/aquasecurity/trivy#installation) has been selected for scanning the vulnerabilities for containers.
 
@@ -177,7 +177,7 @@ With Prowler you can:
 
 
 ## Feature 5
-CI/CD pipeline: CI/CD Pipelines like CircleCI. [issue #5](https://github.com/blockboard/ThreatMapper-aisecureme/issues/5)
+CI/CD pipeline: CI/CD Pipelines like CircleCI. 
 
 # Getting started
 - For a detailed installation guide for the prerequisites check out this [Detailed Prerequisites installation document](https://github.com/blockboard/ThreatMapper-aisecureme/blob/master/Pre-Requisites.md)
