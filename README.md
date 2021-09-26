@@ -180,7 +180,7 @@ With Prowler you can:
 CI/CD pipeline: CI/CD Pipelines like CircleCI. 
 
 # Getting started
-- For a detailed installation guide for the prerequisites check out this [Detailed Prerequisites installation document](https://github.com/blockboard/ThreatMapper-aisecureme/blob/master/Pre-Requisites.md)
+- For a detailed installation guide for the prerequisites check out this [Detailed Prerequisites installation document](https://github.com/goyalvartul/threatspotter/tree/master/pre-requisites.md)
 
 ## Debian-based Linux Distros
 :warning: **Make sure you are inside the ThreatSpotter-AiSecureMe project location from your terminal.**
